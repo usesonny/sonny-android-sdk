@@ -1,0 +1,10 @@
+.gradle/
+**/build/
+local.properties
+.idea/
+
+.DS_Store
+.env*
+*.p8
+*.pem
+*service-account*.json

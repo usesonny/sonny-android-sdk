@@ -1,0 +1,29 @@
+name: Bug report
+description: Report a problem with the Sonny visitor SDK.
+title: "[Bug]: "
+body:
+  - type: input
+    id: version
+    attributes:
+      label: SDK version or commit
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Device and operating system
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: Include a minimal example. Remove identity tokens, push tokens, keys, and customer conversation data.
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Expected and actual behavior
+    validations:
+      required: true
